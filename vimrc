@@ -18,17 +18,6 @@ colorscheme elflord                                              " seting color 
 set mouse=a                                                      " set all mouse modes
 set ttymouse=xterm2                                              " mouse compatible term
 set visualbell                                                   " no beep
-set laststatus=2                                                 " always statusline
-set statusline=                                                  " clean the status line
-set statusline+=%-3.3n\                                          " buffer number
-set statusline+=%f\                                              " filename
-set statusline+=%h%m%r%w                                         " status flags
-set statusline+=\[%{strlen(&ft)?&ft:'none'}]                     " file type
-set statusline+=%=                                               " right align remainder
-set statusline+=0x%-8B                                           " character value
-set statusline+=%-14(%l,%c%V%)                                   " line, character
-set statusline+=%<%P                                             " file position
-set ruler                                                        " show the line and column number of the cursor position
 set colorcolumn=80                                               " create a line on column 80
 set showcmd                                                      " show incomplete cmds down the bottom
 set showmode                                                     " show current mode down the botto

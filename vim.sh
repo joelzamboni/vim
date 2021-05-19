@@ -24,7 +24,7 @@ VPKGDIR="${HOME}/.vim/bundle"
 
 
 echo -n "- Basic Setup..."
-[ -d ${HOME}/.vim ] && echo "please remove ${HOME}/.vim before continue" && exit 1
+rm -fr ~/.vim*
 mkdir -p ${HOME}/.vim/autoload ${VPKGDIR}
 curl -so "${HOME}/.vim/autoload/pathogen.vim" "https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim"
 [ ! -d ${HOME}/tmp ] && mkdir ${HOME}/tmp || echo -n ...
@@ -46,7 +46,7 @@ MarcWeber/vim-addon-mw-utils
 honza/vim-snippets
 scrooloose/syntastic
 tpope/vim-fugitive
-Valloric/YouCompleteMe
+vim-airline/vim-airline
 "
 echo "- Starting packages clonning:"
 for package in $PACKAGES
