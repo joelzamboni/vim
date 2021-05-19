@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# TODO: migrate to new VIM plugin system
+# TODO: merge vimrc file into the shell scritp
+
 sudo apt-get install -y \
   build-essential \
   cmake \
