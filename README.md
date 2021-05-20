@@ -1,8 +1,6 @@
 # vim
 
-
 My VIM plugins and vimrc
-
 
 FuzzyFinder
 MRU
@@ -31,14 +29,4 @@ moll/vim-node
 
 ## [mw-utils](https://github.com/MarcWeber/vim-addon-mw-utils)
 
-## [snipmate](https://github.com/garbas/vim-snipmate)
-
-## [snippets](https://github.com/honza/vim-snippets)
-
-## [snipmate-snippets](https://github.com/scrooloose/snipmate-snippets)
-
-## [syntastic](https://github.com/scrooloose/syntastic)
-
 ## [fugitive](https://github.com/tpope/vim-fugitive)
-
-## [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # TODO: migrate to new VIM plugin system
-# TODO: merge vimrc file into the shell scritp
+# TODO: merge vimrc file into the shell script
 
 sudo apt-get install -y \
   build-essential \
